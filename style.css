@@ -1,0 +1,127 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #d8b2f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #d8b2f0;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#main-title, .page-title {
+    color: #4a0072;
+    font-size: 28px;
+    margin: 0;
+    font-style: italic;
+}
+
+#content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro-text, .contact-text {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    color: #4a0072;
+    font-style: italic;
+}
+
+#navigation {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #388E3C;
+}
+
+.nav-link[href*="gallery.html"]::before {
+    content: "❤️ ";
+    color: red;
+    font-size: 18px;
+}
+
+.email-link {
+    color: #0077cc;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.email-link:hover {
+    color: #005599;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #d8b2f0;
+    border-radius: 8px;
+}
+
+.gallery-item {
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+.caption {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #4CAF50;
+    font-style: italic;
+}
+
+.caption::before {
+    content: "❤️ ";
+    color: red;
+    font-size: 18px;
+}
+
+#footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #d8b2f0;
+    color: #4a0072;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-body {
+    background-color: #d8b2f0;
+}
+
+.gallery-body {
+    background-color: #d8b2f0;
+}
